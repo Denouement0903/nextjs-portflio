@@ -31,7 +31,7 @@ const SinglePageSetions = () => {
             <div id="testimonials" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-black text-white">
             <TestimonialsLayout />
             </div>
-            <div id="contact" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-white text-black">
+            <div id="contact" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-white backdrop-blur-lg text-black ">
             <ContactLayout />
             </div>
         </div>        

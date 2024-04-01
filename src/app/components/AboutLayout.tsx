@@ -12,7 +12,7 @@ const AboutLayout = () => {
     return (
         <section className="container grid grid-cols-2 h-screen">
             <div className="pl-16 transition ease-in-out duration-1000 hover:-translate-x-10 hover:scale-100">
-                <div className="about-text pt-24 bg-black border-l-2 border-white">
+                <div className="about-text pt-24 bg-black">
                     <h2 className="text-left text-white text-5xl font-extrabold pl-8 pt-4">Who am I?</h2>
                     <h3 className="text-left text-white text-2xl font-extrabold pt-6 px-8 pb-0">Deno Rautenbach</h3>
                     <p className="text-white text-base pt-6 pl-8 pr-24 text-justify">
@@ -24,13 +24,13 @@ const AboutLayout = () => {
                 </div>
                 <div className="about-image">
                     <Image
-                        className="ml-0 border-t-2 border-r-2 border-white object-cover"
+                        className="ml-0 object-cover"
                         src={deno}
                         alt="deno"
                     />
                 </div>
             </div>
-            <div className="images m-10 pt-0">
+            <div className="images m-10 pt-32">
                 <div className="grid grid-cols-2">
                     <Image
                         className="w-full rounded-lg ml-4 mb-24 z-50 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 duration-1000 hover:backdrop-brightness-50"
