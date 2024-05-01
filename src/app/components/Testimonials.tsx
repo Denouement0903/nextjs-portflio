@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import umayr from "../assets/Testimonials/umayr.jpg"
+import umayr from "../assets/Testimonials/umayr.png"
 import joel from "../assets/Testimonials/joel.jpg"
 import kim from "../assets/Testimonials/kim.jpeg"
 import konke from "../assets/Testimonials/konke.jpeg"
-import john from "../assets/Testimonials/john.jpg"
-import luntu from "../assets/Testimonials/luntu.jpg"
+import john from "../assets/Testimonials/john.png"
+import luntu from "../assets/Testimonials/luntu.png"
 import React from "react";
 
 
