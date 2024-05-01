@@ -15,22 +15,22 @@ const HeaderSection = () => {
             <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-500 md:dark:bg-black dark:border-black">
                 <li>
-                <a href="/" className="block py-2 px-3 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:p-0 dark:text-white md:dark:tegreen-500" aria-current="page">Home</a>
+                <a href="/" className="block py-2 px-3 text-white bg-neutral-700 rounded md:bg-transparent md:text-neutral md:p-0 hover:text-neutral-700" aria-current="page">Home</a>
                 </li>
                 <li>
-                <a href="#projects" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-[#b8ce3c] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                <a href="#projects" className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-neutral-400 md:p-0 dark:text-white md:dark:hover:text-neutral-500 focus:outline-none focus:ring focus:ring-neutral-300">Projects</a>
                 </li>
                 <li>
-                <a href="#skills" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-[#b8ce3c] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+                <a href="#skills" className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-neutral-400 md:p-0 dark:text-white md:dark:hover:text-neutral-500 focus:outline-none focus:ring focus:ring-neutral-300">Skills</a>
                 </li>
                 <li>
-                <a href="#about" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-[#b8ce3c] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                <a href="#about" className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-neutral-400 md:p-0 dark:text-white md:dark:hover:text-neutral-500 focus:outline-none focus:ring focus:ring-neutral-300">About</a>
                 </li>
                 <li>
-                <a href="#testimonials" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-[#b8ce3c] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Testimonials</a>
+                <a href="#testimonials" className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-neutral-400 md:p-0 dark:text-white md:dark:hover:text-neutral-500 focus:outline-none focus:ring focus:ring-neutral-300">Testimonials</a>
                 </li>
                 <li>
-                <a href="#contact" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-white md:dark:hover:text-[#b8ce3c] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                <a href="#contact" className="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-neutral-400 md:p-0 dark:text-white md:dark:hover:text-neutral-500 focus:outline-none focus:ring focus:ring-neutral-300">Contact</a>
                 </li>
             </ul>
             </div>

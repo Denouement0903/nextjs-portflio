@@ -9,7 +9,7 @@ import React from "react";
 
 const SinglePageSetions = () => {
     return (
-        <div className="container relative lg:grid lg:grid-rows-6 sm:grid sm:grid-cols-0 sm:grid-rows-6 ">
+        <div className="container relative lg:grid lg:grid-rows-6 sm:grid sm:grid-cols-0 sm:grid-rows-6">
             {/* Home */}
                 <HomeLayout />
             {/* Projects */}
@@ -27,11 +27,11 @@ const SinglePageSetions = () => {
             <div id="about" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-black text-white">
             <AboutLayout />
             </div>
-            {/* About */}
+            {/* Testimonials */}
             <div id="testimonials" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-black text-white">
             <TestimonialsLayout />
             </div>
-            <div id="contact" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-white backdrop-blur-lg text-black ">
+            <div id="contact" className="sticky top-0 h-screen w-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-white backdrop-blur-lg text-black">
             <ContactLayout />
             </div>
         </div>        
