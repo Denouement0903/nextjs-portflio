@@ -105,7 +105,7 @@ const TestimonialsLayout = ()=> {
                 <div className="card-body bg-black lg:w-full w-5/6">
                     <h2 className="card-title">Luntu Sogeyana</h2>
                     <h3>- Frontend Engineer | DataBalk</h3>
-                    <p>Deno is a reliable person who is not turn down a fellow coder's cry for help when they need it</p>
+                    <p>Deno is a reliable person who is not turn down a fellow coder&apos;s cry for help when they need it</p>
                     <div className="card-actions justify-end">
                     <button className="btn btn-primary"></button>
                     </div>
